@@ -1,0 +1,90 @@
+.club-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    transition: transform 0.2s;
+    width: calc(600px + 40px);
+    max-width: 100%;
+}
+
+.club-card:hover {
+    transform: scale(1.05);
+}
+
+.club-card img {
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .club-card {
+        padding: 10px;
+        width: calc(300px + 20px);
+    }
+
+    .club-card img {
+        height: 200px;
+        width: 300px;
+    }
+}
+
+
+.club-card p {
+    color: #666;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.actions button {
+    cursor: pointer;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    margin: 0 5px;
+    transition: background-color 0.2s;
+}
+
+.actions button:hover {
+    background-color: #0056b3;
+}
+
+.comment-section {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.comment-section input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.clubs-feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}

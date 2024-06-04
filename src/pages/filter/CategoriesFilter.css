@@ -1,0 +1,23 @@
+.categories-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.categories-filter button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.categories-filter button.selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.categories-filter button:hover {
+    background-color: #e7e7e7;
+}
